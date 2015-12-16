@@ -1,3 +1,4 @@
+<?php
 /**
  * Generate an MD5 hash string from the contents of a directory.
  *
@@ -33,3 +34,6 @@ function hashDirectory($directory)
  
     return md5(implode('', $files));
 }
+
+
+?>
